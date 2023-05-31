@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#0099ff, #94fffa);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mp3 {
+    background-color: #fff;
+    height: 400px;
+    width: 220px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8px;
+    box-shadow: 0px 0px 5px gainsboro;
+}
+
+.music-image {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    
+}
+
+.music-image img {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.music-name {
+    text-align: center;
+}
+
+.music-buttons {
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.music-buttons .heart {
+    color: red;
+}
+
+.music-buttons span {
+    margin: 0;
+    margin-inline: 19px;
+    cursor: pointer;
+}
+
+.music-timer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.music-timer .red-timer{
+    border-radius: 100px;
+    height: 4px;
+    width: 70px;
+    background-color: red;
+    margin-left: 10px;
+}
+
+.music-timer .white-timer {
+    border-radius: 100px;
+    height: 4px;
+    width: 50px;
+    background-color: #e0e0e0;
+    margin-right: 10px;
+}
+
+.play-button {
+    margin-top: 20px;
+}
+
+.play-button span {
+    font-size: 40px;
+    cursor: pointer;
+}
